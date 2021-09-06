@@ -4,8 +4,50 @@ selector{
 }
 */
 body{
-    background-color: rgb(220, 183, 255);
+    background-color: rgba(254, 254, 255, 0.568);
 }
 h1,h2{
     text-align: center;
+}
+header{
+     background-image: url( "../img/header.jpg");
+     height: 500px; 
+     display: flex;
+     justify-content:center;
+}
+header h1{ 
+background-color: rgba(255, 255, 255, 0.877);
+padding: 10px;
+width: 300px;
+height: 40px;
+} 
+nav{
+    background-color: rgb(146, 146, 146);
+    height: 50 px;
+    position: fixed;
+    top: 150px;
+    left: 100px;
+}
+nav ol li{
+    background-color: rgb(22, 23, 24);
+    display: inline;
+    color: white;
+    padding: 15px;
+    margin: 0px 10 px;
+}
+article{
+    padding-top: 100px;
+    background: linear-gradient(rgba(173, 216, 230, 0.589), rgba(74, 74, 145, 0.534));
+    width: 80%;
+    margin-left: 10%;
+}    
+nav ol li{
+    text-decoration: none;
+    color: snow;
+}
+nav ol li:hover{
+    background-color: rgb(230, 221, 230);
+    color: black;
+    box-shadow: 5px 3px 5px black;
+    width: 250px;
 }
