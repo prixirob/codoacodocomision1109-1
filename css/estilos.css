@@ -11,9 +11,13 @@ h1,h2{
 }
 header{
      background-image: url( "../img/header.jpg");
-     height: 500px; 
+     height: 300px; 
      display: flex;
      justify-content:center;
+     position: fixed;
+     width: 80%;
+     top: 0px;
+     margin-left: 10%;
 }
 header h1{ 
 background-color: rgba(255, 255, 255, 0.877);
@@ -38,8 +42,8 @@ nav ol li{
 article{
     padding-top: 100px;
     background: linear-gradient(rgba(173, 216, 230, 0.589), rgba(74, 74, 145, 0.534));
-    width: 80%;
-    margin-left: 10%;
+    width: 80% !important;
+    margin-left: 20%;
 }    
 nav ol li{
     text-decoration: none;
@@ -50,4 +54,31 @@ nav ol li:hover{
     color: black;
     box-shadow: 5px 3px 5px black;
     width: 250px;
+}
+
+.rojo{
+    background-color: red;
+    width: 25%;
+    height: 300px;
+    color: yellow;
+    font-size: 25px;
+    margin: 5px;
+}
+#negro{
+    background-color:black;
+    width: 25%;
+    height: 300px;
+    color: white;
+    font-size: 15px;
+}
+#principal{
+    display: flex;
+    justify-content: center;
+}
+main{
+    width: 80%;
+}
+h4 font{
+
+    color: black !important;
 }
