@@ -1,7 +1,7 @@
 #justify,#otra{
     display: flex;
    /*justify-content: center;para centrar los hijos*/
-  /* justify-content: flex-end; para posisicionar al final*/
+  /* justify-content: flex-end; para posicionar al final*/
  /* justify-content: flex-start; el que viene por defecto */
     /* justify-content: space-around; */
     justify-content: space-between;
@@ -38,6 +38,6 @@ span{
     display: block;
 }
 .principal{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
